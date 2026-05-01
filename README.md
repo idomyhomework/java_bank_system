@@ -13,19 +13,19 @@ Todos los archivos de texto se guardan en `data/`.
 
 ## Menú de opciones
 
-1 - Cargar cuentas: carga cuentas y sus movimientos desde un archivo .txt  
- 2 - Cargar movimientos: carga movimientos adicionales desde otro archivo  
- .txt
-3 - Actualizar cuentas: descarta los cambios no guardados y vuelve al estado del archivo. (Siempre carga el archivo cuentas.txt)
-4 - Mostrar cuenta: muestra los datos de una cuenta
-5 - Eliminar cuenta: elimina una cuenta por número
-6 - Alta cuenta: crea una nueva cuenta (el número se genera automáticamente)
-7 - Ingreso: añade dinero a una cuenta
-8 - Extracción: retira dinero de una cuenta (se permite saldo negativo)  
- 9 - Saldo a día: consulta el saldo de una cuenta en una fecha concreta  
- 10 - Guardar cuentas: guarda el estado actual en un archivo .txt
-11 - Cuentas en negativo: lista todas las cuentas con saldo negativo
-12 - Salir
+- 1 - Cargar cuentas: carga cuentas y sus movimientos desde un archivo .txt
+- 2 - Cargar movimientos: carga movimientos adicionales desde otro archivo  
+  .txt
+- 3 - Actualizar cuentas: descarta los cambios no guardados y vuelve al estado del archivo. (Siempre carga el archivo cuentas.txt)
+- 4 - Mostrar cuenta: muestra los datos de una cuenta
+- 5 - Eliminar cuenta: elimina una cuenta por número
+- 6 - Alta cuenta: crea una nueva cuenta (el número se genera automáticamente)
+- 7 - Ingreso: añade dinero a una cuenta
+- 8 - Extracción: retira dinero de una cuenta (se permite saldo negativo)
+- 9 - Saldo a día: consulta el saldo de una cuenta en una fecha concreta
+- 10 - Guardar cuentas: guarda el estado actual en un archivo .txt
+- 11 - Cuentas en negativo: lista todas las cuentas con saldo negativo
+- 12 - Salir
 
 ---
 
