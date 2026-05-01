@@ -69,4 +69,15 @@ public class Movimiento {
         return Objects.hash(numeroCta, fecha, hora, tipoMovimiento);
     }
 
+    @Override
+    public String toString() {
+        DateTimeFormatter fDate = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        DateTimeFormatter fTime = DateTimeFormatter.ofPattern("HH:mm");
+        String tipo = tipoMovimiento == 'I' ? "Ingreso" : "Extraccion";
+        return "Tipo: " + tipo +
+                " | Fecha: " + fecha.format(fDate) +
+                " | Hora: " + hora.format(fTime) +
+                " | Cantidad: " + String.format("%.2f", cantidad) + " €";
+    }
+
 }

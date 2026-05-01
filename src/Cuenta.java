@@ -1,7 +1,6 @@
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.Objects;
 
 public class Cuenta {
@@ -108,7 +107,7 @@ public class Cuenta {
                 "\nApellidos:       " + apellidos +
                 "\nNúmero:          " + numero +
                 "\nFecha apertura:  " + fechaAbertura +
-                "\nSaldo:           " + saldo + " €" +
+                "\nSaldo:           " + String.format("%.2f", saldo) + " €" +
                 "\n==============";
     }
 
